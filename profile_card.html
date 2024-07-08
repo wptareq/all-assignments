@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+<style>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+
+
+.profile-card {
+    background-color: #fff;
+    width: 400px;
+    padding: 50px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: black;
+}
+
+h2 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: black;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.proj {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.proj {
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.done {
+
+    font-weight: 500;
+    color: rgb(255, 0, 221);
+}
+.Client {
+
+    font-weight: 500;
+    color: rgb(255, 0, 221);
+}
+.year {
+
+    font-weight: 500;
+    color: rgb(255, 0, 221);
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+    
+    <div class="profile-card">
+        <img src="./img/Main Hero Image.png" alt="Profile Picture" class="profile-pic">
+        <h1>Tareq Al Mamun</h1>
+        <h2>Web Developer</h2>
+
+       
+
+        <p class="description">I am a passionate web developer with experience in creating dynamic and responsive websites. I love coding and solving problems.</p>
+        <div class="proj">
+
+            <div class="150">
+                <span>Project Done</span><br>
+                <span class="done">150+</span>
+            </div>
+    
+            <div class="satis">
+                <span> Satisfied Client</span><br>
+                <span class="Client">140+</span>
+            </div>
+    
+            <div class="exp"> 
+                <span>Experience</span><br>
+                <span class="year">3(y)+</span>
+            </div>
+    
+           </div>
+        <p class="contact-info">Email: contact@devtareq.me</p>
+        <p class="contact-info">Mobile: +88 01767454145</p>
+        <p class="contact-info">Portfolio: <a href="https://devtareq.me">devtareq.me</a></p>
+    </div>
+
+</body>
+</html>
